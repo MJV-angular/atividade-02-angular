@@ -1,12 +1,29 @@
 div {
+  position:relative;
+  bottom:0;
   background-color: #3e3e3e;
-  height: 150px;
+  height: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 3%;
   box-shadow: 0px -6px 15px -3px rgba(0, 0, 0, 0.1);
+  p {
+    color: white;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  button {
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: rgb(84, 82, 82) ;
+    border: none;
+    cursor: pointer;
+    z-index: 9999999;
+  }
+
   figure {
-    width: 150px;
+    width: 100px;
     img {
       width: 100%;
     }

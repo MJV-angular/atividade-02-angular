@@ -1,5 +1,5 @@
 main {
-  min-height: 75.6vh;
+  min-height: 100vh;
   max-width: 1500px;
   margin: 50px auto;
 
@@ -21,7 +21,7 @@ main {
       flex-wrap: wrap;
       margin: 0 auto;
       gap: 25px;
-      
+
       div {
         margin: 0 auto;
         display: flex;
@@ -43,6 +43,7 @@ main {
           font-size: 18px;
           font-weight: 600;
           transition: 0.3s;
+          cursor: pointer;
           &:hover {
             background-color: white;
             border: 2px solid #60489d;
